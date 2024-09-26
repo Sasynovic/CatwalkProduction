@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Art Deco Condensed", sans-serif;
+    
+}
+
+* > h1{
+    font-size: 2.5em;
+}
+* > h2{
+    font-size: 2em;
+}
+
+* > p{
+    font-size: 1em;
+}
+
+:root{
+    --wine: rgb(97, 9, 9);
+    --gun: rgb(27,27,25);
+    --snow: rgb(239,238,227);
+}
+
+body{
+    color: var(--snow);
+}
+
+.separator{
+    height: 10px;
+    background-color: var(--snow);
+}
+
+@font-face {
+    font-family: 'Art Deco Condensed';
+    src: url('fonts/Milston.otf') format('otf'),
+    url('fonts/Milston.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+

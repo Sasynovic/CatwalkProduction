@@ -1,0 +1,32 @@
+@media screen and (max-width: 900px){
+
+    .slider-box{
+        height: 800px;
+
+    }
+
+    .slide-elem{
+        flex-direction: column;
+    }
+
+    .slide-elem img{
+        height: 100%;
+        box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .slider-box {
+        height: 650px;
+    }
+
+    .slide-text {
+        height: 100%;
+    }
+
+    .description{
+        line-height: 20px;
+    }
+
+}
