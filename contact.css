@@ -1,0 +1,83 @@
+.contact-us{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--snow);
+}
+
+.contact-us > a{
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 400px;
+    box-shadow: 0 0 15px 0 black;
+
+    transition: all 0.3s ease;
+}
+
+.whatsapp-logo{
+    width: 40px;
+    margin: 10px;
+}
+
+.whatsapp:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(26, 26, 26);
+    color: white; 
+    box-shadow: 0 0 15px 0 var(--wine);
+    transform: scale(1.1); 
+}
+
+@media screen and (max-width: 576px){
+    .whatsapp{
+        width: 250px;
+    }
+
+    .whatsapp-logo{
+        width: 30px;
+    }
+}
+
+
+.chi-siamo {
+    display: flex;
+    background-color: var(--snow);
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chi-siamo h2 {
+    margin-bottom: 1em;
+    color: black;
+}
+
+.chi-siamo p {
+    width: 50%;
+    line-height: 1.6;
+    color: black;
+}
+
+@media screen and (max-width: 576px){
+    .chi-siamo p{
+        width: 90%;
+    }
+}
