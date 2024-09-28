@@ -24,11 +24,14 @@
 
 body{
     color: var(--snow);
+    background-color: var(--gun);
+    cursor: default;
+    -webkit-user-drag: none;
 }
 
 .separator{
     height: 10px;
-    background-color: var(--snow);
+    background-color: var(--gun);
 }
 
 @font-face {

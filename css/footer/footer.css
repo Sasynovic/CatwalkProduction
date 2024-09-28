@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--gun);
+    background-color: var(--wine);
     padding: 20px 0;
     text-align: center;
 }
@@ -20,13 +20,9 @@ footer {
 .footer-bottom p a {
     text-decoration: none;
     transition: color 0.3s ease;
-    color: #d51111;
-}
-
-.footer-section.contact p a:hover,
-.footer-bottom p a:hover  {
     color: #f9a826;
 }
+
 
 #backToTop {
     background-color: #f9a826;

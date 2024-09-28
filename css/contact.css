@@ -4,8 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: var(--snow);
 }
 
 .contact-us > a{
@@ -18,7 +16,7 @@
     align-items: center;
     justify-content: center;
     background-color: #25d366;
-    color: white;
+    color:var(--snow);
     padding: 5px;
     border-radius: 50px;
     width: 400px;
@@ -53,7 +51,7 @@
 
 .chi-siamo {
     display: flex;
-    background-color: var(--snow);
+    background-color: var(--gun);
     text-align: center;
     padding: 40px;
 }
@@ -67,13 +65,11 @@
 
 .chi-siamo h2 {
     margin-bottom: 1em;
-    color: black;
 }
 
 .chi-siamo p {
     width: 50%;
     line-height: 1.6;
-    color: black;
 }
 
 @media screen and (max-width: 576px){
