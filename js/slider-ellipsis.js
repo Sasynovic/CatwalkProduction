@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     h1.forEach((h1, index) => {
         if (h1.textContent.length > maxLengthH1) {
-            h1.textContent = h1.textContent.slice(0, maxLengthH1) + ' - ';
+            h1.textContent = h1.textContent.slice(0, maxLengthH1) + '  ';
         }
     });
 });
