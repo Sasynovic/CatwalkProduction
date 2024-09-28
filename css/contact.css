@@ -9,6 +9,7 @@
 .contact-us > a{
     text-decoration: none;
     border-radius: 50px;
+
 }
 
 .whatsapp{
@@ -38,6 +39,10 @@
     transform: scale(1.1); 
 }
 
+.whatsapp > p{
+    text-align: center;
+}
+
 @media screen and (max-width: 576px){
     .whatsapp{
         width: 250px;
@@ -45,35 +50,5 @@
 
     .whatsapp-logo{
         width: 30px;
-    }
-}
-
-
-.chi-siamo {
-    display: flex;
-    background-color: var(--gun);
-    text-align: center;
-    padding: 40px;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.chi-siamo h2 {
-    margin-bottom: 1em;
-}
-
-.chi-siamo p {
-    width: 50%;
-    line-height: 1.6;
-}
-
-@media screen and (max-width: 576px){
-    .chi-siamo p{
-        width: 90%;
     }
 }

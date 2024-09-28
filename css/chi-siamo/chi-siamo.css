@@ -1,0 +1,28 @@
+.chi-siamo {
+    display: flex;
+    background-color: var(--gun);
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chi-siamo h2 {
+    margin-bottom: 1em;
+}
+
+.chi-siamo p {
+    width: 70%;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 576px){
+    .chi-siamo p{
+        width: 90%;
+    }
+}
