@@ -9,9 +9,11 @@
     }
     .slide-elem img{
         height: 100%;
+        width: auto;
     }
     .slide-text{
         height: 100%;
+        width: auto;
     }
     .description{
         margin-top: 10px;
