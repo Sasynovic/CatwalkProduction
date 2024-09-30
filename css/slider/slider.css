@@ -29,6 +29,7 @@
     box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     width: 100%;
+    aspect-ratio: 16/9;
 }
 
 .slide-text{
