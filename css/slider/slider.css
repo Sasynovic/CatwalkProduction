@@ -1,6 +1,4 @@
 .slider-box{
-
-
     display: flex;
     position: relative;
 
@@ -41,6 +39,7 @@
     box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin: 15px;
+    overflow: hidden;
 }
 
 .slide-h{

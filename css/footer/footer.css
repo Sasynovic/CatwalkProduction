@@ -20,14 +20,18 @@ footer {
     text-align: center;
 }
 
-.footer-section.contact p a,
+.footer-section p{
+    text-align: center;
+}
+
+.footer-section p a,
 .footer-bottom p a {
     text-decoration: none;
     transition: color 0.3s ease;
     color: #f9a826;
 }
 
-.footer-section.contact p a:hover,
+.footer-section p a:hover,
 .footer-bottom p a:hover {
     text-decoration: underline;
 }
