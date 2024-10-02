@@ -1,10 +1,22 @@
 .team-section{
     color: var(--gun);
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
 
 .teammates-pic{
     filter: grayscale(100%);
-
+    
 }
 
 .team-section {
@@ -23,10 +35,7 @@
     flex-wrap: wrap;
     gap: 50px;
 
-    margin-top: 50px;
     overflow: visible;
-
-
 }
 
 .profile {
@@ -36,11 +45,14 @@
     text-align: center;
     max-width: 250px;
 
+    transition: transform 125ms ease-in-out;
+
+    box-shadow: 0 0 10px 2px var(--snow);
+
 }
 
 .profile:hover {
     transform: scale(1.05);
-    transition-duration: 150ms;
 }
 
 .profile img {
