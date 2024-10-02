@@ -50,6 +50,41 @@ footer {
     background-color: #d48414;
 }
 
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.icon {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    color: #fff;
+    border: 2px solid transparent;
+
+    margin: 10px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background: linear-gradient(90deg, #FF7A00 0%, #FF0169 50.06%, #D300C5 99.36%);
+    border: 1px solid linear-gradient(90deg, #FF7A00 0%, #FF0169 50.06%, #D300C5 99.36%);
+}
+
+.icon:hover {
+    transform: translateY(-3px);
+    border: 2px solid #fff;
+}
+
+
+
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
