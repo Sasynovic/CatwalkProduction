@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     background-color: #25d366;
-    color:var(--snow);
+    color:white;
     padding: 5px;
     border-radius: 50px;
     width: 400px;
@@ -33,7 +33,7 @@
 
 .whatsapp:hover {
     transition: all 0.3s ease;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(20,20,20);
     color: white; 
     box-shadow: 0 0 15px 0 var(--wine);
     transform: scale(1.1); 
