@@ -1,7 +1,6 @@
 .slider-box{
     display: flex;
     position: relative;
-
     height: 500px;
 }
 
@@ -9,7 +8,6 @@
     display: none;
     position: absolute;
     opacity: 0;
-
     height: 100%;
     width: 100%;
     left: 100%;
@@ -53,9 +51,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin: 0 40px 40px 40px;
-
 }
-
-
