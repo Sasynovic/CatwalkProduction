@@ -3,12 +3,10 @@ const observer = new IntersectionObserver((entries) => {
         console.log(entry)
         if(entry.isIntersecting){
             entry.target.classList.add('show');
-        }else{
-            entry.target.classList.remove('show');
         }
     });
 });
 
 
-const hiddenElements = document.querySelectorAll('.team-section');
+const hiddenElements = document.querySelectorAll('.service-section');
 hiddenElements.forEach((el) => observer.observe(el));

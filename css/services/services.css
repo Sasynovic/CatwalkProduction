@@ -1,4 +1,4 @@
-.team-section{
+.service-section{
     color: var(--gun);
     opacity: 0;
     filter: blur(5px);
@@ -12,24 +12,17 @@
     transform: translateX(0);
 }
 
-
-
-.teammates-pic{
-    filter: grayscale(100%);
-    
-}
-
-.team-section {
+.service-section {
     text-align: center;
     padding: 50px 0;
 
 }
 
-.team-section h1 {
+.service-section h1 {
     color: var(--snow);
 }
 
-.profiles {
+.services {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -38,7 +31,7 @@
     overflow: visible;
 }
 
-.profile {
+.service {
     background-color: var(--snow);
     border-radius: 15px;
     padding: 20px;
@@ -51,11 +44,11 @@
 
 }
 
-.profile:hover {
+.service:hover {
     transform: scale(1.05);
 }
 
-.profile img {
+.service img {
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -64,13 +57,13 @@
     border: 5px solid var(--gun);
 }
 
-.profile h2 {
+.service h2 {
     margin-top: 15px;
 }
 
 
 @media (max-width: 768px) {
-    .profiles {
+    .services {
         flex-direction: column;
         align-items: center;
     }
