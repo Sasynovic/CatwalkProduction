@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (window.innerWidth <= 600) {
         // Schermi piccoli (smartphone)
-        maxLengthP = 480;
+        maxLengthP = 540;
         maxLengthH1 = 23;
     } else if (window.innerWidth <= 1024) {
         // Schermi medi (tablet)
